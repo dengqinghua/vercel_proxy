@@ -1,5 +1,7 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "https://api.openai.com/$1" }
+    { "source": "/googleapis/(.*)", "destination": "https://aisandbox-pa.googleapis.com/$1" },
+    { "source": "/googlelabs/(.*)", "destination": "https://labs.google/$1" },
+    { "source": "/openrouter/(.*)", "destination": "https://openrouter.ai/$1" }
   ]
 }
